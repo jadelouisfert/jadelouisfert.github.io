@@ -6,20 +6,9 @@ body {
 }
 
 header {
-    background-color: #e7e7e7;
+    background-color: hsl(214, 43%, 68%);
     color: #fff;
     padding: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
 }
 
 a {
@@ -32,34 +21,43 @@ main {
 }
 
 footer {
-    background-color: #e7e7e7;
+    background-color: hsl(214, 43%, 68%);
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
-.submenu {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative; /* Ajout pour positionner le sous-menu */
+}
+
+nav ul li ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-li:hover .submenu {
-    display: block;
-}
-
-.submenu li {
-    float: none;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
     padding: 10px;
-    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.submenu li a {
+nav ul li:hover ul {
     display: block;
-    color: #333;
-    text-decoration: none;
 }
 
-.submenu li a:hover {
-    background-color: #ddd;
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    display: block;
+    color: hsl(214, 43%, 68%);
+    text-decoration: none;
 }
