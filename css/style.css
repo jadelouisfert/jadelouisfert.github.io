@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: hsl(214, 43%, 68%);
+    background-color: hsl(213, 47%, 62%);
     color: hsl(214, 43%, 68%);
     padding: 20px;
 }
@@ -21,7 +21,7 @@ main {
 }
 
 footer {
-    background-color: hsl(214, 43%, 68%);
+    background-color: hsl(213, 47%, 62%);
     color: #fff;
     text-align: center;
     padding: 10px 0;
