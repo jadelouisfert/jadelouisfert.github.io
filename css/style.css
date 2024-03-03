@@ -61,3 +61,6 @@ nav ul li ul li a {
     color: hsl(213, 57%, 53%);
     text-decoration: none;
 }
+.container {
+    text-align: center;
+}
