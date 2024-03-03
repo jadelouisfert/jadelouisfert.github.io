@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: hsl(214, 43%, 68%);
-    color: #fff;
+    color: hsl(214, 43%, 68%);
     padding: 20px;
 }
 
