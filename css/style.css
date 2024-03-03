@@ -1,4 +1,4 @@
-/* styles.css */
+/* style.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -32,8 +32,34 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #e7e7e7;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    float: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.submenu li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background-color: #ddd;
 }
