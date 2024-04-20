@@ -5,6 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio</title>
 <link rel="stylesheet" href="css/style.css">
+<style>
+    .project-item {
+        width: 48%;
+        position: relative;
+        margin-bottom: 20px;
+        float: left;
+        padding: 1%;
+        box-sizing: border-box;
+    }
+
+    .project-item:nth-child(odd) {
+        float: left;
+        clear: left;
+    }
+
+    .project-item:nth-child(even) {
+        float: right;
+        clear: right;
+    }
+
+    .project-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .container {
+        clear: both;
+    }
+
+    @media (max-width: 768px) {
+        .project-item {
+            width: 100%;
+        }
+    }
+</style>
 </head>
 <body>
 
@@ -23,31 +59,26 @@
     <div class="container">
         <div class="project-item web">
             <img src="1.png" alt="Project 1">
-            <div class="project-info">
-                <h3 class="project-title">Projet Web 1</h3>
-            </div>
         </div>
         <div class="project-item mobile">
             <img src="https://via.placeholder.com/600x400" alt="Project 2">
-            <div class="project-info">
-                <h3 class="project-title">Projet Mobile 1</h3>
-            </div>
         </div>
         <div class="project-item design">
             <img src="https://via.placeholder.com/600x400" alt="Project 3">
-            <div class="project-info">
-                <h3 class="project-title">Projet Design 1</h3>
-            </div>
+        </div>
+        <div class="project-item web">
+            <img src="https://via.placeholder.com/600x400" alt="Project 4">
+        </div>
+        <div class="project-item mobile">
+            <img src="https://via.placeholder.com/600x400" alt="Project 5">
+        </div>
+        <div class="project-item design">
+            <img src="https://via.placeholder.com/600x400" alt="Project 6">
         </div>
         <!-- Ajoute autant de projets que nécessaire, en remplaçant les liens et les titres -->
     </div>
 </section>
 
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
-    </div>
-</footer>
 
 <script src="js/script.js"></script>
 

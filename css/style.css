@@ -26,6 +26,8 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
     margin-right: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
 }
 
 .nav-menu {
