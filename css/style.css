@@ -12,8 +12,8 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #1b1b1b;
-    color: #ffffff;
+    background-color: #f3dd9a;
+    color: #3d3d37;
     padding: 20px 0;
 }
 
@@ -40,13 +40,13 @@ body {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #3d3d37;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #ffd700;
+    color: #fff7ca;
 }
 
 .active {
