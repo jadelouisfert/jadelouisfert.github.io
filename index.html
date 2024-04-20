@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxence Jauberty</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Maxence Jauberty</h1>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li>
-                        <a href="#">Mathématiques</a>
-                        <ul>
-                            <li><a href="#">L3/CPGE</a></li>
-                            <li><a href="#">Développements</a></li>
-                            <li><a href="#">Projets</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+
+<nav class="navbar">
+    <div class="container">
+        <h1 class="logo">Jade Louisfert</h1>
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-link active" data-filter="all">Photos</a></li>
+            <li><a href="#" class="nav-link" data-filter="about">A propos</a></li>
+            <li><a href="#" class="nav-link" data-filter="misc">Divers</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="project-item web">
+            <img src="1.png" alt="Project 1">
+            <div class="project-info">
+                <h3 class="project-title">Projet Web 1</h3>
+            </div>
         </div>
-    </header>
+        <div class="project-item mobile">
+            <img src="https://via.placeholder.com/600x400" alt="Project 2">
+            <div class="project-info">
+                <h3 class="project-title">Projet Mobile 1</h3>
+            </div>
+        </div>
+        <div class="project-item design">
+            <img src="https://via.placeholder.com/600x400" alt="Project 3">
+            <div class="project-info">
+                <h3 class="project-title">Projet Design 1</h3>
+            </div>
+        </div>
+        <!-- Ajoute autant de projets que nécessaire, en remplaçant les liens et les titres -->
+    </div>
+</section>
 
-    <main>
-        <section>
-            <h2>A propos de moi</h2>
-            <p>Je m'appelle Maxence Jauberty, je suis en deuxième à Telecom Paris. Très largement, je fais des mathématiques et de l'informatique.</p>
-            <h3>Domaines d'intêrets</h3>
-            <p>Je suis principalement intéressé par l'algèbre et son application dans les domaines de la cryptographie et de la théorie des codes. J'apprécie également la théorie de l'information ainsi que les probabilités.</p>
-            <h3>Ce que je fais en ce moment</h3>
-            <p>Je travaille en collaboration avec Olivier Rioul sur un sujet à cheval entre la théorie de l'information classique et quantique via l'étude de la théorie de la majorisation. En parallèle, je donne des colles en classe préparatoire en CPGE MP.</p>
-        </section>
-    </main>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </div>
+</footer>
 
-    <footer>
-        <p>&copy; 2024 Maxence Jauberty</p>
-    </footer>
+<script src="js/script.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
