@@ -1,0 +1,9 @@
+{{page-title "Gallery"}}
+<!-- app/templates/gallery.hbs -->
+<h1>Galerie de Photos</h1>
+<div class="gallery-grid">
+  {{#each this.model as |photo|}}
+    <PhotoItem @photo={{photo}} />
+  {{/each}}
+</div>
+{{outlet}}

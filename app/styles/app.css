@@ -1,1 +1,84 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+
+/* app/styles/app.css */
+.index-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.index-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.index-section p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.nav-bar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #faf7e1;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar li {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.nav-bar li a {
+  color: rgb(211 192 255);
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: #555;
+}
+/* app/styles/app.css */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .photo-item p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  
